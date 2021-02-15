@@ -1,6 +1,5 @@
 public class Variable {
     public static void main(String[] args) {
-
         byte cores = 4; 
         short memory = 16;
         int typeSystem = 64;
@@ -9,6 +8,7 @@ public class Variable {
         double freq = 1199.8d;
         char cpu = 'i';
         boolean comp = true;
+        
         System.out.println("byte cores = " + cores);
         System.out.println("short memory = " + memory);
         System.out.println("int typeSystem = " + typeSystem);
