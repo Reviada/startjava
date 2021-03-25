@@ -9,7 +9,7 @@ public class Cycle {
         int result = 6;
         while (result >= -6) {
             System.out.println(result);
-            result = result - 2;
+            result -= 2;
         }
 
         int i1 = 10;
@@ -18,7 +18,7 @@ public class Cycle {
            if (i1 % 2 != 0) {
                sum += i1;
            }   
-            i1++;
+           i1++;
         } while (i1 <= 20);
         System.out.println("3.Sum of odd numbers = " + sum);
     }
